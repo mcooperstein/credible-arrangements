@@ -1,8 +1,8 @@
 /*!
- * Creative v1.0.4 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+* Creative v1.0.4 (http://startbootstrap.com/template-overviews/creative)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
 
 html,
 body {
@@ -85,6 +85,7 @@ p {
 
 section {
     padding: 100px 0;
+    background-color: lightblue;
 }
 
 aside {
@@ -105,7 +106,7 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: #f05f40;
+    color: #d93b86;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -141,7 +142,7 @@ aside {
     background-color: transparent;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
     .navbar-default {
         background-color: transparent;
         border-color: rgba(255, 255, 255, 0.3);
@@ -497,4 +498,27 @@ body {
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* -- Font Awesome Icon Stylings -- */
+
+.fa-diamond:before {
+    content: "\f219";
+    color: hotpink;
+}
+
+.fa-leaf:before {
+    content: "\f06c";
+    color: greenyellow;
+}
+
+.fa-newspaper-o:before {
+    content: "\f1ea";
+    color: beige;
+}
+
+.fa-heart:before {
+    content: "\f004";
+    color: indianred;
 }

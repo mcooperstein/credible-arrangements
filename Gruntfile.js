@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     // Project configuration.
     grunt.initConfig({
@@ -67,6 +67,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'less', 'usebanner']);

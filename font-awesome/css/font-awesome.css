@@ -627,6 +627,7 @@
 
 .fa-leaf:before {
     content: "\f06c";
+    color: lightgreen;
 }
 
 .fa-fire:before {
@@ -742,6 +743,7 @@
 
 .fa-heart-o:before {
     content: "\f08a";
+    color: indianred;
 }
 
 .fa-sign-out:before {
