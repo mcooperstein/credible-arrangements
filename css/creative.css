@@ -75,7 +75,8 @@ p {
 }
 
 .bg-dark {
-    background-color: rebeccapurple;
+    background-color: #d93b86;
+    opacity: 0.8;
     color: white;
 }
 
@@ -510,7 +511,7 @@ body {
 
 .fa-leaf:before {
     content: "\f06c";
-    color: greenyellow;
+    color: limegreen;
 }
 
 .fa-newspaper-o:before {
