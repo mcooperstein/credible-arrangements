@@ -195,6 +195,7 @@ header {
     -o-background-size: cover;
     background-position: center;
     background-image: url('../img/retro-vintage-main.jpg');
+    /*background-image: url('../img/resize-home-image.jpg');*/
     text-align: center;
     color: white;
 }
@@ -209,7 +210,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     font-weight: 700;
     /*text-transform: uppercase;*/
-    margin-top: 3.5em;
+    margin-top: 5em;
     margin-bottom: 0;
     font-family: "Playball", cursive;
     opacity: 0.9;
@@ -218,7 +219,7 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner hr {
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 header .header-content .header-content-inner p {
@@ -499,6 +500,23 @@ body {
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
+}
+
+aside {
+    padding-bottom: 100px;
+}
+
+.review {
+    /*vertical-align: middle;
+    display: inline-block;
+    line-height: normal;*/
+    margin-top: 50px;
+}
+
+.belen {
+    /*float: left;*/
+    vertical-align: middle;
+    height: 200px;
 }
 
 
