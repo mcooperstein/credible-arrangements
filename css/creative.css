@@ -51,12 +51,23 @@ a:focus {
 }
 
 h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Playball', cursive;
+}
+
+.client-reviews {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
 }
 
 p {
