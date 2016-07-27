@@ -65,7 +65,6 @@ h2 {
 section#reviews {
     background-color: #d93b86;
     opacity: 0.8;
-    padding-bottom: 300px;
 }
 
 .client-reviews {
@@ -81,6 +80,41 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+
+p.client-info {
+    margin-top: 5px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+#slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /*height: 255px;*/
+    background-color: #d93b86;
+    /*height: 250px;*/
+    /*border-bottom: 5px solid #fff;*/
+}
+
+.bx-wrapper .bx-viewport {
+    /*-moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;*/
+    border: 5px solid #fff;
+    /*height: 275px;*/
+    left: 0px;
+    background-color: #d93b86;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+
+ul {
+    padding: 0;
 }
 
 #contact-p {
@@ -179,24 +213,9 @@ header {
     -o-background-size: cover;
     background-position: center;
     background-image: url('../img/retro-vintage-main.jpg');
-    /*background-image: url('../img/resize-home-image.jpg');*/
     text-align: center;
     color: white;
 }
-
-
-/*header .header-content {
-    background-color: rgba(105, 100, 100, 0.6);
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-    /*padding: 100px 15px 100px;
-    width: 100%;
-    height: 100%;
-}*/
 
 header .header-content .header-content-inner .title[style] {
     font-weight: 700;
@@ -459,10 +478,12 @@ body {
     /*vertical-align: middle;
     display: inline-block;
     line-height: normal;*/
-    margin-top: 50px;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.belen {
+.testimonials {
     /*float: left;*/
     vertical-align: middle;
     height: 200px;
@@ -643,17 +664,24 @@ hr.search-primary:after {
         width: 100%;
         background-color: rgba(105, 100, 100, 0.6);
     }
-    p#text-review {
-        padding-top: 50px;
-    }
     section#reviews {
         background-color: #d93b86;
         opacity: 0.8;
-        padding-bottom: 520px;
     }
-    #belen-img {
-        height: 200px;
-        width: 200px;
+    .client-img {
+        height: 170px;
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    p#text-review {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    p#text-review2 {
+        font-size: 15px;
+        margin-bottom: 50px;
     }
 }
 
@@ -685,10 +713,10 @@ hr.search-primary:after {
         margin-left: auto;
         margin-right: auto;
     }
-    .belen {
+    .testimonials {
         float: left;
         vertical-align: middle;
-        height: 200px;
+        height: 275px;
         margin-top: -20px;
     }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -697,9 +725,34 @@ hr.search-primary:after {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
-    #belen-img {
+    .client-img {
         height: 170px;
         width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    .testimonials {
+        margin-left: 25px;
+    }
+    #slider {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        /*height: 255px;*/
+        background-color: #d93b86;
+        height: 250px;
+        border-bottom: 5px solid #fff;
+    }
+    p#text-review {
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    p#text-review2 {
+        font-size: 15px;
+        margin-bottom: 50px;
+        text-align: left;
     }
 }
 
@@ -708,9 +761,22 @@ hr.search-primary:after {
         /* margin: 20px auto 0; */
         margin: 50px;
     }
-    #belen-img {
-        height: 200px;
-        width: 200px;
+    .client-img {
+        height: 170px;
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    p#text-review {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    p#text-review2 {
+        font-size: 16px;
+        margin-bottom: 50px;
+        text-align: center;
     }
 }
 
